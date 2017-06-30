@@ -33,7 +33,7 @@ class ModalDemo extends Component {
         <View style={styles.container}>
 
             <TouchableHighlight underlayColor='#ccc'
-          activeOpacity={0.7}  onPress={()=>{
+          activeOpacity={0.8}  onPress={()=>{
                       this._setModalVisible(!this.state.modalVisible)
                   }}>
                      <Text>show Modal!!</Text>
